@@ -23,4 +23,4 @@ To minimize the cost, we take differentiation of cost function to find the gradi
 
 To update the theta, we take a step more close to the optimum point in every iteration, by a method called gradient descent. Alpha is the learning rate controlling the speed of convergence.
 
-![](https://latex.codecogs.com/gif.latex?\theta_{i}:=\theta_{i}-\alpha\delta{J(\theta)})
+![](https://latex.codecogs.com/gif.latex?\theta_{i}:=\theta_{i}-\alpha\delta{J(\theta_{i})})
