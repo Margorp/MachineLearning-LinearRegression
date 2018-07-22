@@ -15,5 +15,5 @@ To make the calculation more convenient, we set X[1] to be X and X[0] be the vec
 
 To solve the parameters theta, we use squared errors to measure the cost of the function, which is denoted as J.
 
-![](https://latex.codecogs.com/gif.latex?J(\theta)=\frac{1}{2}\sum\limits^{m}_{j}(\sum\limits^{n}_{i=0}\theta_{i}X_{i}^{(j)} - y^{(j)})^{2}
+![](https://latex.codecogs.com/gif.latex?J(\theta)=\frac{1}{2}\sum\limits^{m}_{j}(\sum\limits^{n}_{i=0}\theta_{i}X_{i}^{(j)}-y^{(j)})^{2})
 
