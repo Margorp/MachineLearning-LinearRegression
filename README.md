@@ -19,8 +19,8 @@ To solve the parameters theta, we use squared errors to measure the cost of the 
 
 To minimize the cost, we take differentiation of cost function to find the gradient at the theta point.
 
-![](https://latex.codecogs.com/gif.latex?\delta{J(\theta)}=\sum\limits^{m}_{j}(\sum\limits^{n}_{i=0}\theta_{i}X_{i}^{(j)}-y^{(j)})X^{(j)})
+![](https://latex.codecogs.com/gif.latex?\frac{\delta{J(\theta)}}{\delta\theta}=\sum\limits^{m}_{j}(\sum\limits^{n}_{i=0}\theta_{i}X_{i}^{(j)}-y^{(j)})X^{(j)})
 
 To update the theta, we take a step more close to the optimum point in every iteration, by a method called gradient descent. Alpha is the learning rate controlling the speed of convergence.
 
-![](https://latex.codecogs.com/gif.latex?\theta_{i}:=\theta_{i}-\alpha\delta{J(\theta_{i})})
+![](https://latex.codecogs.com/gif.latex?\theta_{i}:=\theta_{i}-\alpha\frac{\delta{J(\theta)}}{\delta\theta})
