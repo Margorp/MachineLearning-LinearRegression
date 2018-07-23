@@ -27,5 +27,6 @@ To update the theta, we take a step more close to the optimum point in every ite
 
 After enough iterations, you should have the theta for your solution. Then you can predict any new data by the solution.
 
-![](https://latex.codecogs.com/gif.latex?\hat{y} = \sum\limits^{n}_{i=0}\theta_{i}X_{i})
+![](https://latex.codecogs.com/gif.latex?\hat{y}=\sum\limits^{n}_{i=0}\theta_{i}X_{i})
+
 where n is 1 in this case.
